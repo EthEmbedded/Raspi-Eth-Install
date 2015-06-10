@@ -32,9 +32,8 @@
 4. Once ua-netinst is complete, we can log in with:
 	
 	- login:	`root`
-	
 	- password:	`raspbian`
-	- 
+
 5. Download, unzip, and choose eth-install.sh OR geth-install.sh:
 
 `wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.1.0.tar.gz`
