@@ -1,2 +1,28 @@
-# Eth(Embedded) Raspberry Pi/Ethereum Install Instructions
-### Utilizing Raspbian Unattended Installer - ## ua-netinst 
+# Eth(Embedded) Raspberry Pi/[Ethereum](https://www.ethereum.org/) Install Instructions
+### Utilizing [Raspbian](http://www.raspbian.org/) Unattended Installer - [ua-netinst](https://github.com/debian-pi/raspbian-ua-netinst)
+
+[Ua-netinst](https://github.com/debian-pi/raspbian-ua-netinst) is a great tool that will install a minimal(no GUI) Debian based Raspbian OS.  It is Raspberry Pi agnostic, therefore there is only one set of instructions to follow, no matter which model of Pi you have.
+
+### Supported Boards:
+  1. Raspberry Pi B (SD Card)
+  2. Raspberry Pi B+ (SD Card)
+  3. Raspberry Pi 2 (Micro SD Card)
+  4. ***May work on "Model A", but has not been tested
+
+### Materials Needed:
+- Raspberry Pi development board (one of the models listed above)
+- 32GB micro SD Card(Raspi-2) or with SD Adapter(RasPiB/B+).  
+	- *Suggestion*: Use Class 10 SanDisk Ultra or Extreme models with higher R/W speeds
+- Power Supply for Raspberry Pi(minimum 5VDC 1Amp micro USB)
+- Ethernet cable (to connect to available, DHCP enabled, internet router)
+  
+### Optional Materials:
+- HDMI cable
+- Monitor with HDMI input(or apropriate adapter)
+- USB Keyboard
+
+### Installation Method 
+###### *Disclaimer* - If you will be formatting an SD card be aware that you will be deleting all information stored on said card.  Eth(Embedded) is *NOT*  responsible for any data loss that may occur during the processes detailed below.
+
+1. Download, unzip and copy the [ua-netinst files](https://github.com/debian-pi/raspbian-ua-netinst/releases/tag/v1.0.7) to an empty SD card(must first be formatted as FAT32)
+2. Safely remove and install SD card into a powered down Raspberry Pi (1B, 1B+, or 2)
