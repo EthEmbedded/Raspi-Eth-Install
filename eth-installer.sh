@@ -24,5 +24,6 @@ sudo make install
 sudo ldconfig	
 cd ../..
 
-#Now lets install Eth or Geth
-#go-ethereum OR `geth`:
+#Now lets install Ethereum 
+#If this is your first time playing around with Ethereum, I would suggest starting with `geth`
+
