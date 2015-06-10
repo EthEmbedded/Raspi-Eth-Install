@@ -23,3 +23,6 @@ sudo make
 sudo make install
 sudo ldconfig	
 cd ../..
+
+#Now lets install Eth or Geth
+#go-ethereum OR `geth`:
