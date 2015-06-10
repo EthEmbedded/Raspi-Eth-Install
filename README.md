@@ -30,9 +30,15 @@
 - If you see led's flashing you can walk away...go grab a coffee, or spend some time with your family:)
 - If you do not see led's flashing something may have gone wrong... If this is the case, the only way to truly diagnose what has happened is to connect a Monitor and Keyboard, and reference the [ua-netinst github](https://github.com/debian-pi/raspbian-ua-netinst).
 4. Once ua-netinst is complete, we can log in with:
+	
 	- login:	`root`
+	
 	- password:	`raspbian`
+	- 
 5. Download, unzip, and choose eth-install.sh OR geth-install.sh:
+
 `wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.1.0.tar.gz`
+
 `tar -xvzf v0.1.0.tar.gz`
+
 `chmod +x eth-install.sh` OR `chmod +x geth-install.sh`
