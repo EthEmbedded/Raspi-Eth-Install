@@ -1,2 +1,2 @@
-# Raspi-Install-Script
-#Ethereum Install Script
+# Eth(Embedded) Raspberry Pi/Ethereum Install Instructions
+### Utilizing Raspbian Unattended Installer - ## ua-netinst 
