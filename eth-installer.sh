@@ -34,3 +34,7 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DBUNDLE=minimal
 make -j2
 cd ../..
+
+#Finally we can run `geth` by going to the proper directory and executign the `./geth` command:
+cd ~/cpp-ethereum/build/eth/
+./eth
