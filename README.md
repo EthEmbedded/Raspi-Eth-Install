@@ -34,7 +34,7 @@
 	
 	- login:	`root`
 	- password:	`raspbian`
-
+######At this point you may want to add a user other than `root` using `adduser <username>`
 5. Download, unzip, and choose eth-install.sh OR geth-install.sh:
 
 	`wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.1.0.tar.gz`
