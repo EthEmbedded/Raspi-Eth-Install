@@ -42,3 +42,25 @@
 	`tar -xvzf v0.1.0.tar.gz`
 
 	`chmod +x eth-install.sh` OR `chmod +x geth-install.sh`
+	
+6. Now lets run the install script for either `geth` or `eth`
+
+	`./geth-install.sh`
+	
+	OR
+	
+	`./eth-install.sh`
+	
+7. Finally lets start the client:
+
+	For `geth` :
+	
+	`cd ~/go-ethereum/build/bin`
+	
+	`./geth`
+	
+	For `eth`:
+	
+	`cd ~/cpp-ethereum/build/eth`
+	
+	`./eth`
