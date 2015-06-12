@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #First we need to perform some housekeeping & install dependencies
-sudo apt-get -y update
-sudo apt-get -y upgrade
-sudo dpkg-reconfigure locales
-sudo apt-get -y install raspi-copies-and-fills build-essential git nodejs npm ntp cloud-utils 
+apt-get -y update
+apt-get -y upgrade
+dpkg-reconfigure locales
+apt-get -y install raspi-copies-and-fills build-essential git nodejs npm ntp cloud-utils 
 
 #Install GO 1.4.2
 
