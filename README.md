@@ -10,8 +10,8 @@
   4. ***May work on "Model A", but has not been tested
 
 ### Materials Needed:
-- Raspberry Pi development board (one of the models listed above)
-- 32GB micro SD Card(Raspi-2) or with SD Adapter(RasPiB/B+).  
+- Raspberry Pi development board (one of the models listed above, preferably the RasPi2)
+- 64GB micro SD Card(Raspi2) or with SD Adapter(RasPiB/B+).  
 	- *Suggestion*: Use Class 10 SanDisk Ultra or Extreme models with higher R/W speeds
 - Power Supply for Raspberry Pi(minimum 5VDC 1Amp micro USB)
 - Ethernet cable (to connect to available, DHCP enabled, internet router)
@@ -30,7 +30,7 @@
 
 	- If you see led's flashing you can walk away...go grab a coffee, or spend some time with your family:)
 	- If you do not see led's flashing something may have gone wrong... If this is the case, the only way to truly	diagnose what has happened is to connect a Monitor and Keyboard, and reference the [ua-netinst 				github](https://github.com/debian-pi/raspbian-ua-netinst).
-4. Once ua-netinst is complete, we can log in with:
+4. Once ua-netinst is complete, we need to log in to our router and look at the dhcp client list to find the IP address assigned to our device, alternately you can use one of my favorite app, [FING](https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en), as long as your android phone is connected to the same network. We can then, using a linux cli or [putty](http://www.putty.org/), ssh into the device with the following credentials:
 	
 	- login:	`root`
 	- password:	`raspbian`
