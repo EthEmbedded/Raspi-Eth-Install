@@ -11,7 +11,7 @@ apt-get -y install raspi-copies-and-fills build-essential git scons cmake nodejs
 #Cryptopp
 git clone https://github.com/mmoss/cryptopp.git
 cd cryptopp
-sudo scons --shared --prefix=/usr
+scons --shared --prefix=/usr
 cd ..
 
 #Json-rpc-cpp	
