@@ -30,11 +30,11 @@
 
 	- If you see led's flashing you can walk away...go grab a coffee, or spend some time with your family:)
 	- If you do not see led's flashing something may have gone wrong... If this is the case, the only way to truly	diagnose what has happened is to connect a Monitor and Keyboard, and reference the [ua-netinst 				github](https://github.com/debian-pi/raspbian-ua-netinst).
-4. Once ua-netinst is complete, we need to log in to our router and look at the dhcp client list to find the IP address assigned to our device, alternately you can use one of my favorite app, [FING](https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en), as long as your android phone is connected to the same network. We can then, using a linux cli or [putty](http://www.putty.org/), ssh into the device with the following credentials:
+4. Once ua-netinst is complete, we need to log in to our router and look at the dhcp client list to find the IP address assigned to our device, alternately you can use one of my favorite mobile apps, [FING](https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en), as long as your android phone is connected to the same network. We can then, using a linux cli or [putty](http://www.putty.org/), ssh into the device with the following credentials:
 	
 	- login:	`root`
 	- password:	`raspbian`
-######At this point you may want to add a user other than `root` using `adduser <username>`
+######At this point you may want to add a user other than `root` using `adduser <username> sudo`
 5. Download, unzip, and choose eth-install.sh OR geth-install.sh:
 
 	`wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.1.0.tar.gz`
