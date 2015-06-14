@@ -1,10 +1,9 @@
 #!/bin/bash
 
 #First we need to perform some housekeeping & install dependencies
-apt-get -y update
-apt-get -y upgrade
-dpkg-reconfigure locales
-apt-get -y install raspi-copies-and-fills build-essential git nodejs npm ntp cloud-utils 
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install raspi-copies-and-fills build-essential git nodejs npm ntp cloud-utils 
 
 #Install GO 1.4.2
 
@@ -22,6 +21,7 @@ cd golang && git checkout go1.4.2
 cd src && ./make.bash
 
 #Install go-ethereum OR `geth`
+cd ~
 git clone https://github.com/ethereum/go-ethereum
 cd go-ethereum
 make geth
