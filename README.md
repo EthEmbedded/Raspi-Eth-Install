@@ -24,7 +24,7 @@
 ### Installation Method 
 ###### *Disclaimer* - If you will be formatting an SD card be aware that you will be deleting all information stored on said card.  Eth(Embedded) is *NOT*  responsible for any data loss that may occur during the format process.
 
-1. Download, unzip and copy the [ua-netinst files](https://github.com/debian-pi/raspbian-ua-netinst/releases/tag/v1.0.7) AND ADD ONLY the [Eth(Embedded) installer-config.txt](https://github.com/EthEmbedded/Raspi-Eth-Install/releases/tag/v0.1.0) file to an empty SD card(must first be formatted as FAT32)
+1. Download, unzip and copy the [ua-netinst files](https://github.com/debian-pi/raspbian-ua-netinst/releases/) AND ADD ONLY the [Eth(Embedded) installer-config.txt](https://github.com/EthEmbedded/Raspi-Eth-Install/releases/) file to an empty SD card(must first be formatted as FAT32)
 2. Safely remove and install SD card into a powered down Raspberry Pi (1B, 1B+, or 2) with ethernet cable connected between RasPi and an internet enabled DHCP router.
 3. Power on your Pi... Make sure there is activity with the RasPi's onboard led's(you should see green led's flashing as well as activity on the ethernet port led's)
 
