@@ -1,5 +1,5 @@
 preset=server
-packages=nano,screen,dphys-swapfile,git # comma separated list of extra packages
+packages=sudo,nano,screen,dphys-swapfile,git # comma separated list of extra packages
 mirror=http://mirrordirector.raspbian.org/raspbian/
 release=jessie
 hostname=ethpi
