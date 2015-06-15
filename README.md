@@ -35,6 +35,7 @@
 	
 	- login:	`root`
 	- password:	`root`
+
 ######At this point, until the next release of ua-netinst(v1.1.x) you may want to add a user other than `root` using `adduser <username> sudo`
 6. Log in as `root` or, preferably your new user, and download, unzip, and choose eth-install.sh OR geth-install.sh:
 
