@@ -1,9 +1,13 @@
 #!/bin/bash
 
 #First we need to perform some housekeeping & install dependencies
+echo -e $COL_BLUE"First we need to perform some housekeeping & install dependencies"
+echo -e $COL_GREEN"Performing Housekeeping - Update"
 sudo apt-get -y update
+echo -e $COL_GREEN"Performing Housekeeping - Upgrade"
 sudo apt-get -y upgrade
-sudo apt-get -y install raspi-copies-and-fills build-essential git nodejs npm ntp cloud-utils 
+echo -e $COL_GREEN"Installing Dependencies"
+sudo apt-get -y install raspi-copies-and-fills build-essential libgmp3-dev git nodejs npm ntp cloud-utils 
 
 #Install GO 1.4.2
 
@@ -17,15 +21,12 @@ mkdir -p $GOPATH
 
 cd ~
 git clone https://go.googlesource.com/go golang
-cd golang && git checkout go1.4.2
-cd src && ./make.bash
+sudo cd golang && git checkout go1.4.2
+sudo cd src && ./make.bash
 
 #Install go-ethereum OR `geth`
 cd ~
 git clone https://github.com/ethereum/go-ethereum
 cd go-ethereum
-make geth
+sudo make geth
 
-#Finally we can run `geth` by going to the proper directory and executign the `./geth` command:
-cd ~/go-ethereum/build/bin/
-./geth
