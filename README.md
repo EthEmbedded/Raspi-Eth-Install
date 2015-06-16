@@ -81,7 +81,9 @@ For eth/cpp-ethereum visit: https://github.com/ethereum/cpp-ethereum/wiki/Using-
 
 A great place to start are the forums at https://forum.ethereum.org/
 
-Be on your way to creating your first DApp by visiting https://dappsforbeginners.wordpress.com/
+OR
+
+Learn more about creating DApps by visiting https://dappsforbeginners.wordpress.com/
 
 
 
