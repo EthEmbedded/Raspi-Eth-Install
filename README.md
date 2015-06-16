@@ -77,7 +77,7 @@ For eth/cpp-ethereum visit: https://github.com/ethereum/cpp-ethereum/wiki/Using-
 
 ####What now?
 
-*To learn more about Ethereum get involved!*
+*To learn more about Ethereum.org get involved!*
 
 A great place to start are the forums at https://forum.ethereum.org/
 
