@@ -39,9 +39,9 @@
 ######At this point, until the next release of ua-netinst(v1.1.x) you may want to add a user other than `root` using `adduser <username> sudo`
 6. Log in as `root` or, preferably your new user, and download, unzip, and choose eth-install.sh OR geth-install.sh:
 
-	`wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.1.0.tar.gz`
+	`wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.1.5.tar.gz`
 
-	`tar -xvzf v0.1.0.tar.gz`
+	`tar -xvzf v0.1.5.tar.gz`
 
 	`chmod +x geth-install.sh` OR `chmod +x eth-install.sh` 
 	
