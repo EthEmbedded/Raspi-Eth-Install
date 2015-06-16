@@ -68,3 +68,20 @@
 	`cd ~/cpp-ethereum/build/eth`
 	
 	`./eth`
+
+####For more info regarding running cli clients please visit the following links:
+
+For geth/go-ethereum visit: https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options
+
+For eth/cpp-ethereum visit: https://github.com/ethereum/cpp-ethereum/wiki/Using-Ethereum-CLI-Client
+
+####What now?
+
+*To learn more about Ethereum get involved!*
+
+A great place to start are the forums at https://forum.ethereum.org/
+
+Be on your way to creating your first DApp by visiting https://dappsforbeginners.wordpress.com/
+
+
+
