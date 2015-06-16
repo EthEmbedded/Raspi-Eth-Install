@@ -1,4 +1,4 @@
-# Eth(Embedded) Raspberry Pi/[Ethereum](https://www.ethereum.org/) Install Instructions
+# [Eth(Embedded)](www.ethembedded.com) [Raspberry Pi](www.raspberrypi.org)/[Ethereum](https://www.ethereum.org/) Install Instructions
 ### Utilizing [Raspbian](http://www.raspbian.org/) Unattended Installer - [ua-netinst](https://github.com/debian-pi/raspbian-ua-netinst)
 
 [Ua-netinst](https://github.com/debian-pi/raspbian-ua-netinst) is a great tool that will install a minimal(no GUI) Debian based Raspbian OS.  It is Raspberry Pi agnostic, therefore there is only one set of instructions to follow, no matter which model of RasPi you have.
