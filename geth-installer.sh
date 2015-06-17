@@ -29,7 +29,7 @@ cd src
 sudo ./make.bash
 
 #Install go-ethereum OR `geth`
-echo "Installing go-ethereum..."
+echo -e "\e[34mInstalling go-ethereum...\e[0m"
 cd ~
 git clone https://github.com/ethereum/go-ethereum
 cd go-ethereum
