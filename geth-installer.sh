@@ -1,23 +1,23 @@
 #!/bin/bash
 
 #First we need to perform some housekeeping & install dependencies
-echo "First we need to perform some housekeeping & install dependencies"
-echo "Performing Housekeeping - Update..."
+echo -e "\e[32mFirst we need to perform some housekeeping & install dependencies\e[0m"
+echo -e "\e[34mPerforming Housekeeping - Update...\e[0m"
 sudo apt-get -y update
-echo "Performing Housekeeping - Upgrade..."
+echo -e "\e[34mPerforming Housekeeping - Upgrade...\e[0m"
 sudo apt-get -y upgrade
-echo "Installing Dependencies..."
+echo -e "\e[34mInstalling Dependencies...\e[0m"
 sudo apt-get -y install raspi-copies-and-fills build-essential libgmp3-dev git
 
 #Install GO 1.4.2
-echo "Installing GO 1.4.2 from source..."
+echo -e "\e[34mInstalling GO 1.4.2 from source...\e[0m"
 
 #Set environment variables:
 
 cd ~
 sudo export PATH=$HOME/golang/bin:$PATH
 sudo export GOPATH=$HOME/go
-sudo mkdir -p $GOPATH
+mkdir -p $GOPATH
 
 #Install golang from source:
 
