@@ -13,9 +13,10 @@ sudo apt-get -y install raspi-copies-and-fills build-essential libgmp3-dev git n
 
 #Set environment variables:
 
-export PATH=$HOME/golang/bin:$PATH
-export GOPATH=$HOME/go
-mkdir -p $GOPATH
+cd ~
+sudo export PATH=$HOME/golang/bin:$PATH
+sudo export GOPATH=$HOME/go
+sudo mkdir -p $GOPATH
 
 #Install golang from source:
 
