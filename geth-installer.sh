@@ -7,7 +7,7 @@ sudo apt-get -y update
 echo -e "\e[34mPerforming Housekeeping - Upgrade...\e[0m"
 sudo apt-get -y upgrade
 echo -e "\e[34mInstalling Dependencies...\e[0m"
-sudo apt-get -y install raspi-copies-and-fills build-essential libgmp3-dev git
+sudo apt-get -y install raspi-copies-and-fills build-essential libgmp3-dev golang git
 
 #Install GO 1.4.2
 echo -e "\e[34mInstalling GO 1.4.2 from source...\e[0m"
