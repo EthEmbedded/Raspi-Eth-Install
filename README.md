@@ -36,8 +36,16 @@
 	- login:	`root`
 	- password:	`root`
 
-######At this point, until the next release of ua-netinst(v1.1.x) you may want to add a user other than `root` using `adduser <username> sudo`
-6. Log in as `root` or, preferably your new user, and download, unzip, and choose eth-install.sh OR geth-install.sh:
+6. At this point, we need to change the root password 
+
+	`passwd`
+
+	and add a user other than `root` with:
+	
+	`adduser <newusername> sudo`
+
+
+7. Log in as `root` or, preferably your new user, and download, unzip, and choose eth-install.sh OR geth-install.sh:
 
 	`wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.1.5.tar.gz`
 
@@ -47,7 +55,7 @@
 	
 	***WARNING*** 	installation of eth on ver 1 of the Pi can take as much as 12 hours to compile... we will be working 			on cross compiling with crosstools-ng in the very near future.
 	
-7. Now lets run the install script for either `geth` or `eth`
+8. Now lets run the install script for either `geth` or `eth`
 
 	`./geth-install.sh`
 	
@@ -55,7 +63,7 @@
 	
 	`./eth-install.sh`
 	
-8. Finally lets start the client:
+9. Finally lets start the client:
 
 	For `geth` :
 	
