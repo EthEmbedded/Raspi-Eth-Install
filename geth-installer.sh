@@ -15,8 +15,8 @@ echo -e "\e[34mInstalling GO 1.4.2 from source...\e[0m"
 #Set environment variables:
 
 cd ~
-sudo export PATH=$HOME/golang/bin:$PATH
-sudo export GOPATH=$HOME/go
+export PATH=$HOME/golang/bin:$PATH
+export GOPATH=$HOME/go
 mkdir -p $GOPATH
 
 #Install golang from source:
