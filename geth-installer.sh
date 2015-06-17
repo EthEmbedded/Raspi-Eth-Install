@@ -1,15 +1,16 @@
 #!/bin/bash
 
 #First we need to perform some housekeeping & install dependencies
-echo -e $COL_BLUE"First we need to perform some housekeeping & install dependencies"
-echo -e $COL_GREEN"Performing Housekeeping - Update"
+echo "First we need to perform some housekeeping & install dependencies"
+echo "Performing Housekeeping - Update..."
 sudo apt-get -y update
-echo -e $COL_GREEN"Performing Housekeeping - Upgrade"
+echo "Performing Housekeeping - Upgrade..."
 sudo apt-get -y upgrade
-echo -e $COL_GREEN"Installing Dependencies"
-sudo apt-get -y install raspi-copies-and-fills build-essential libgmp3-dev git nodejs npm ntp cloud-utils 
+echo "Installing Dependencies..."
+sudo apt-get -y install raspi-copies-and-fills build-essential libgmp3-dev git
 
 #Install GO 1.4.2
+echo "Installing GO 1.4.2 from source..."
 
 #Set environment variables:
 
@@ -22,10 +23,13 @@ sudo mkdir -p $GOPATH
 
 cd ~
 git clone https://go.googlesource.com/go golang
-sudo cd golang && git checkout go1.4.2
-sudo cd src && ./make.bash
+cd golang
+git checkout go1.4.2
+cd src
+sudo ./make.bash
 
 #Install go-ethereum OR `geth`
+echo "Installing go-ethereum..."
 cd ~
 git clone https://github.com/ethereum/go-ethereum
 cd go-ethereum
