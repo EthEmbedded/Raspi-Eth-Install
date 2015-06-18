@@ -25,6 +25,7 @@ cd ../..
 
 #Now lets install Ethereum 
 #If this is your first time playing around with Ethereum, I would suggest starting with `geth`
+cd ~
 git clone https://github.com/ethereum/cpp-ethereum
 cd cpp-ethereum
 git checkout develop
