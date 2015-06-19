@@ -12,10 +12,10 @@
 ### Materials Needed:
 - Raspberry Pi development board (one of the models listed above, preferably the RasPi2)
 - 64GB micro SD Card(Raspi2) or with SD Adapter(RasPiB/B+).  
-###### *Note*: 	although 64GB is not necessary, as the ethereum blockchain grows you will need the room to 				store it.  Another strong suggestion is to use Class 10 SanDisk Ultra or Extreme models with 			higher R/W speeds
 - Power Supply for Raspberry Pi(minimum 5VDC 1Amp micro USB)
 - Ethernet cable (to connect to available, DHCP enabled, internet router)
-  
+
+##### Note: although 64GB is not necessary, as the ethereum blockchain grows you will need the room to 				store it.  Another strong suggestion is to use Class 10 SanDisk Ultra or Extreme models with 				higher R/W speeds
 ### Optional Materials:
 - HDMI cable
 - Monitor with HDMI input(or apropriate adapter)
