@@ -15,7 +15,7 @@
 - Power Supply for Raspberry Pi(minimum 5VDC 1Amp micro USB)
 - Ethernet cable (to connect to available, DHCP enabled, internet router)
 
-##### Note: although 64GB is not necessary, as the ethereum blockchain grows you will need the room to 				store it.  Another strong suggestion is to use Class 10 SanDisk Ultra or Extreme models with 				higher R/W speeds
+##### Note: although 64GB is not immediately necessary, as the ethereum blockchain grows you will need the room to 		store it. (At least until SPV is available) Another strong suggestion is to use Class 10 SanDisk Ultra or Extreme models with higher R/W speeds
 ### Optional Materials:
 - HDMI cable
 - Monitor with HDMI input(or apropriate adapter)
