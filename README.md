@@ -59,7 +59,7 @@
 
 	`chmod +x geth-install.sh` OR `chmod +x eth-install.sh` 
 	
-	***WARNING*** 	installation of eth on ver 1 of the Pi can take as much as 12 hours to compile... we will be working 			on cross compiling with crosstools-ng in the very near future.
+	***WARNING*** 	Installation of eth on ver 1B & 1B+ of the Pi can take as much as 12 hours to compile... we will be 				working on cross compiling with crosstools-ng in the very near future.
 	
 8. Now lets run the install script for either `geth` or `eth`
 
