@@ -31,7 +31,7 @@
 
 	- If you see led's flashing you can walk away...go grab a coffee, or spend some time with your family:)
 	- If you do not see led's flashing something may have gone wrong... If this is the case, the only way to truly	diagnose what has happened is to connect a Monitor and Keyboard, and reference the [ua-netinst 				github](https://github.com/debian-pi/raspbian-ua-netinst) for troubleshooting steps.
-5. Once ua-netinst is complete, we need to log in to our router and look at the dhcp client list to find the IP address assigned to our device, alternately you can use one of my favorite mobile apps, [FING](https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en), as long as your android phone is connected to the same network. We can then, using a linux cli or [putty](http://www.putty.org/), ssh into the device with the following *default* credentials:
+5. Once ua-netinst is complete, we need to log in to our router and look at the dhcp client list to find the IP address assigned to our device, alternately you can use one of my favorite mobile apps, [FING](https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en), as long as your android phone is connected to the same network. We can then, using a linux cli or [putty](http://www.putty.org/), ssh[(instructions)](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-6-using-ssh) into the device with the following *default* credentials:
 	
 	- login:	`root`
 	- password:	`root`
@@ -49,7 +49,7 @@
 	`adduser <newusername> sudo`
 
 
-7. Log in as `root` or, preferably your new user, and download, unzip, and choose eth-install.sh OR geth-install.sh:
+7. Log in as your new user, and download, unzip, and choose eth-install.sh OR geth-install.sh:
 
 	`wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.1.7.tar.gz`
 
