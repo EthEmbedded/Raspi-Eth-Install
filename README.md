@@ -57,7 +57,7 @@
 	
 	`cd Raspi-Eth-Install`
 
-	`chmod +x geth-install.sh` OR `chmod +x eth-install.sh` 
+	`sudo chmod +x geth-install.sh` OR `sudo chmod +x eth-install.sh` 
 	
 	***WARNING*** 	Installation of eth on ver 1B & 1B+ of the Pi can take as much as 12 hours to compile... we will be 				working on cross compiling with crosstools-ng in the very near future.
 	
