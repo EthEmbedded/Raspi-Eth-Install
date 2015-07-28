@@ -57,17 +57,17 @@
 	
 	`cd Raspi-Eth-Install`
 
-	`sudo chmod +x geth-install.sh` OR `sudo chmod +x eth-install.sh` 
+	`sudo chmod +x geth-installer.sh` OR `sudo chmod +x eth-installer.sh` 
 	
 	***WARNING*** 	Installation of eth on ver 1B & 1B+ of the Pi can take as much as 12 hours to compile... we will be 				working on cross compiling with crosstools-ng in the very near future.
 	
 8. Now lets run the install script for either `geth` or `eth`
 
-	`./geth-install.sh`
+	`./geth-installer.sh`
 	
 	OR
 	
-	`./eth-install.sh`
+	`./eth-installer.sh`
 	
 9. Finally lets start the client:
 
