@@ -51,9 +51,9 @@
 
 7. Log in as your new user, and download, unzip, and choose eth-install.sh OR geth-install.sh:
 
-	`wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.2.0.tar.gz`
+	`wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.2.1.tar.gz`
 
-	`tar -xvzf v0.2.0.tar.gz`
+	`tar -xvzf v0.2.1.tar.gz`
 	
 	`cd Raspi-Eth-Install`
 
