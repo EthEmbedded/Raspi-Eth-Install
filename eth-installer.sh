@@ -7,14 +7,13 @@ sudo apt-get -y install raspi-copies-and-fills build-essential git python curl s
 
 #Download armhf pre-compiled llvm-3.8 
 cd ~
-mkdir llvm-3.8
-cd llvm-3.8
 wget http://www.ethembedded.com/downloads/llvm-38-deb-files/llvm_deb_files.zip
 unzip llvm_deb_files.zip
-dpkg -i *.deb
+cd llvm_deb_files
+sudo dpkg -i *.deb
 cd ..
 
-#We must compile cryptopp & json-rpc-cpp from source "the old way" for armhf
+#We must compile cryptopp & json-rpc-cpp from source for armhf
 
 #Cryptopp
 git clone https://github.com/mmoss/cryptopp.git
