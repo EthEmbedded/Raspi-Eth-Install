@@ -6,9 +6,10 @@ sudo apt-get -y upgrade
 sudo apt-get -y install raspi-copies-and-fills build-essential git python curl scons cmake libboost-all-dev automake unzip libgmp-dev libgmp3-dev libtool libleveldb-dev yasm libminiupnpc-dev libreadline-dev libncurses5-dev libcurl4-openssl-dev wget libjsoncpp-dev libargtable2-dev libmicrohttpd-dev libedit-dev mesa-common-dev ocl-icd-libopencl1 opencl-headers libgoogle-perftools-dev ocl-icd-dev libv8-dev
 
 #Download armhf pre-compiled llvm-3.8 
-wget http://www.ethembedded.com/downloads/llvm-38-deb-files/llvm_deb_files.zip
+cd ~
 mkdir llvm-3.8
 cd llvm-3.8
+wget http://www.ethembedded.com/downloads/llvm-38-deb-files/llvm_deb_files.zip
 unzip llvm_deb_files.zip
 dpkg -i *.deb
 cd ..
