@@ -25,7 +25,7 @@
 ###### *Disclaimer* - If you will be formatting an SD card be aware that you will be deleting all information stored on said card.  Eth(Embedded) is *NOT*  responsible for any data loss that may occur during the format process.
 
 1. Download, unzip and copy the [ua-netinst files](https://github.com/debian-pi/raspbian-ua-netinst/releases/) to your SD card.
-2. Download, unzip and copy ONLY the file installer-config.txt from [Raspi-Ethereum-Installv0.1.x](https://github.com/EthEmbedded/Raspi-Eth-Install/releases/) to your SD card
+2. Download, unzip and copy ONLY the file installer-config.txt from [Raspi-Ethereum-Installv0.3.x](https://github.com/EthEmbedded/Raspi-Eth-Install/releases/) to your SD card
 3. The contents of your SD card should be the exact same 19 files as in this [screenshot](http://ethembedded.com/wp-content/uploads/2015/06/ua-netinst-sd-card-list.png).  Next, safely remove and install SD card into a powered down Raspberry Pi (1B, 1B+, or 2) with ethernet cable connected between RasPi and an internet enabled DHCP router.
 4. Power on your Pi... Make sure there is activity with the RasPi's onboard led's(you should see green led's flashing as well as activity on the ethernet port led's)
 
@@ -51,9 +51,9 @@
 
 7. Log in as your new user, and download, unzip, and choose eth-install.sh OR geth-install.sh:
 
-	`wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.2.1.tar.gz`
+	`wget https://github.com/EthEmbedded/Raspi-Eth-Install/archive/v0.3.2.tar.gz`
 
-	`tar -xvzf v0.2.1.tar.gz`
+	`tar -xvzf v0.3.2.tar.gz`
 	
 	`cd Raspi-Eth-Install`
 
