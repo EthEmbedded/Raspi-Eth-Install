@@ -33,9 +33,10 @@ cd ../..
 
 #Now lets install Ethereum 
 cd ~
+git clone https://github.com/ethereum/cpp-ethereum-cmake
 git clone https://github.com/ethereum/cpp-ethereum
 cd cpp-ethereum
-git checkout develop
+git checkout master
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DBUNDLE=minimal -DEVMJIT=off
