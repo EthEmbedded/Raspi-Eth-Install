@@ -55,7 +55,7 @@
 
 	`tar -xvzf v0.3.2.tar.gz`
 	
-	`cd Raspi-Eth-Install`
+	`cd Raspi-Eth-Install-0.3.2`
 
 	`sudo chmod +x geth-installer.sh` OR `sudo chmod +x eth-installer.sh` 
 	
