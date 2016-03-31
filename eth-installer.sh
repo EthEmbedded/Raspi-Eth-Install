@@ -11,6 +11,16 @@ cd cryptopp
 sudo scons --shared --prefix=/usr
 cd ..
 
+#Json-rpc-cpp	
+git clone git://github.com/cinemast/libjson-rpc-cpp.git
+mkdir -p libjson-rpc-cpp/build
+cd libjson-rpc-cpp/build
+sudo cmake .. 
+sudo make
+sudo make install
+sudo ldconfig	
+cd ../..
+
 #Now lets install Ethereum 
 cd ~
 git clone --recursive https://github.com/ethereum/webthree-umbrella
